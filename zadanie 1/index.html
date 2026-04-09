@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyzwanie Dnia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Wyzwanie Dnia</h1>
+
+        <button id="drawBtn">Wylosuj wyzwanie!</button>
+
+        <div id="challengeBox" class="hidden">
+            <p id="challengeText"></p>
+
+            <button id="completeBtn">Ukończone!</button>
+            <button id="historyBtn">Pokaż historię</button>
+        </div>
+
+        <div id="historyBox" class="hidden">
+            <h2>📜 Historia</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
